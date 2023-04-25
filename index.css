@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+#top-box {
+    height: 22.3vw;
+    border: 5px solid black;
+    margin: 15px;
+    display: flex;
+    /* position: relative; */
+}
+
+.left {
+    position: relative;
+    height: 70%;
+    width: 5%;
+    background-color: purple;
+    margin-top: 75px;
+    margin-left: 25px;
+    margin-bottom: auto;
+}
+
+.mid {
+    height: 87%;
+    width: 40%;
+    background-color: green;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cir {
+    height: 87%;
+    width: 20%;
+    background-color: skyblue;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.mid-box {
+    height: 22.3vw;
+    border: 5px dotted black;
+    margin: 15px;
+    display: flex;
+}
+
+.beige {
+    margin: auto;
+    height: 85%;
+    width: 95%; 
+    background-color: beige;
+    box-shadow: 5px 15px 15px black;
+}
+
